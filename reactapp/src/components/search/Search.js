@@ -44,9 +44,6 @@ const Search = () => {
           })}
         </table>
       }
-      {searchResults.length === 0 &&
-        <p>Learn React</p>
-      }
     </div>
   );
 };

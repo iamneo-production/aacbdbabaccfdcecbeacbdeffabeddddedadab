@@ -1,18 +1,12 @@
-import './index.css';
 import Search from './components/Search/Search';
 
-function App() {
-  return (
+function App(){
+  return(
     <div className="App">
+      <h1 align="center">Wiki Search</h1>
       <Search />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
     </div>
+
   );
 }
 
